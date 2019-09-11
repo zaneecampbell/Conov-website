@@ -3,15 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Intro = () => {
   return (
-    <div
-      style={{
-        background:
-          "linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url('Intro_Wallpaper.jpg')",
-        backgroundColor: 'rgba(255, 255, 255, 0.9)',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center top'
-      }}
-    >
+    <div>
       <Container
         style={{
           maxWidth: '1400px',
@@ -23,7 +15,6 @@ const Intro = () => {
       >
         <Row
           style={{
-            maxWidth: '1400px',
             margin: 'auto',
             textAlign: 'center'
           }}
@@ -41,17 +32,17 @@ const Intro = () => {
           </Col>
           <Col style={{ margin: 'auto' }} md='8'>
             <h5>
-              Lorem ipsum dolor sit amet, pro inani splendide instructior te.
+              {/* Lorem ipsum dolor sit amet, pro inani splendide instructior te.
               Pri ad menandri definitionem, unum omnis minimum id his. Corpora
               philosophia definitiones an nec. Perpetua quaerendum deterruisset
               vis ad, vis saepe vitae invenire ea. Eu his suas intellegat, mea
-              homero nullam aliquando ad.
-              {/* Hello! I'm a Korean digital artist specializing in cute girls. I
+              homero nullam aliquando ad. */}
+              Hello! I'm a Korean digital artist specializing in cute girls. I
               stream my art (and games!) Mondays-Fridays starting around 9-10am
               (PDT) on twitch. I've also started using Youtube as another avenue
               to get my content out there and grow my community. I love talking
               to chat on twitch. So come hangout or shoot me and email if you
-              have a commission request! */}
+              have a commission request!
             </h5>
           </Col>
         </Row>

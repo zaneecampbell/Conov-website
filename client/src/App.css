@@ -5,3 +5,14 @@
 body {
   background: rgb(251, 223, 216);
 }
+
+.carousel-caption {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  opacity: 0.6;
+  background: grey !important;
+  color: black !important;
+}

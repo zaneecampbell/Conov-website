@@ -5,9 +5,21 @@ import Intro from './Intro';
 
 const Landing = () => {
   return (
-    <div>
+    <div
+      style={{
+        background:
+          "linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url('Intro_Wallpaper.jpg')",
+        backgroundColor: 'rgba(255, 255, 255, 0.9)',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center top',
+        backgroundAttachment: 'fixed',
+        backgroundSize: 'cover'
+      }}
+    >
       <Intro />
-      <PortfolioLanding />
+      <div style={{ paddingBottom: '15px' }}>
+        <PortfolioLanding />
+      </div>
       <Type />
     </div>
   );
