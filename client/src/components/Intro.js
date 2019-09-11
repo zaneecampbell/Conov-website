@@ -31,7 +31,11 @@ const Intro = () => {
             <img
               src='Chocon-profile.jpg'
               alt='profile pic'
-              style={{ borderRadius: '50%', maxWidth: '150px' }}
+              style={{
+                borderRadius: '50%',
+                maxWidth: '150px',
+                border: '3px solid black'
+              }}
             />
           </Col>
           <Col style={{ margin: 'auto' }} md='8'>
