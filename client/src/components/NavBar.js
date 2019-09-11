@@ -27,26 +27,30 @@ const NavBar = () => {
 
   return (
     <div>
-      <Navbar color='primary' light expand='md'>
-        <NavbarBrand style={{ color: 'white' }} tag={Link} to='/'>
+      <Navbar
+        style={{ backgroundColor: 'rgb(251, 223, 216)' }}
+        light
+        expand='md'
+      >
+        <NavbarBrand style={{ color: 'grey' }} tag={Link} to='/'>
           Conov
         </NavbarBrand>
         <NavbarToggler onClick={onToggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className='ml-auto' navbar>
             <NavItem>
-              <NavLink style={{ color: 'white' }} tag={Link} to='/'>
+              <NavLink style={{ color: 'grey' }} tag={Link} to='/'>
                 Home
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink style={{ color: 'white' }} tag={Link} to='/'>
+              <NavLink style={{ color: 'grey' }} tag={Link} to='/'>
                 Portfolio
               </NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle
-                style={{ color: 'white' }}
+                style={{ color: 'grey' }}
                 tag={Link}
                 to='/'
                 nav
@@ -61,7 +65,7 @@ const NavBar = () => {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink style={{ color: 'white' }} tag={Link} to='/'>
+              <NavLink style={{ color: 'grey' }} tag={Link} to='/'>
                 Contact Me
               </NavLink>
             </NavItem>
