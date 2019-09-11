@@ -27,7 +27,7 @@ const NavBar = () => {
 
   return (
     <div style={{ backgroundColor: 'rgb(251, 223, 216)' }}>
-      <div style={{ maxWidth: '1100px', margin: 'auto' }}>
+      <div style={{ maxWidth: '1400px', margin: 'auto' }}>
         <Navbar
           style={{ backgroundColor: 'rgb(251, 223, 216)' }}
           light

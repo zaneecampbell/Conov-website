@@ -14,6 +14,7 @@ const Intro = () => {
     >
       <Container
         style={{
+          maxWidth: '1400px',
           textAlign: 'center',
           paddingTop: '5vh',
           paddingBottom: '5vh'
@@ -22,7 +23,7 @@ const Intro = () => {
       >
         <Row
           style={{
-            maxWidth: '1100px',
+            maxWidth: '1400px',
             margin: 'auto',
             textAlign: 'center'
           }}
