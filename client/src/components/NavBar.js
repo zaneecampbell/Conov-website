@@ -66,7 +66,7 @@ const NavBar = () => {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink style={{ color: 'grey' }} tag={Link} to='/'>
+                <NavLink style={{ color: 'grey' }} tag={Link} to='/contact'>
                   Contact Me
                 </NavLink>
               </NavItem>

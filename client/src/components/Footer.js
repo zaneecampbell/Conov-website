@@ -81,7 +81,7 @@ const Footer = () => {
               name='text'
               value={text}
               id='exampleText'
-              placeholder='Give me an idea of what you want!'
+              placeholder='Give me an idea of what you want! Including character, pose, and emotion.'
               onChange={e => onChange(e)}
             />
           </Col>
