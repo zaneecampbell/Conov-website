@@ -13,7 +13,7 @@ function App() {
         <Switch>
           <Route exact path='/' component={Landing} />
         </Switch>
-        <div style={{ background: 'grey' }}>
+        <div style={{ background: 'rgb(251, 223, 216)' }}>
           <Footer />
         </div>
       </Fragment>
@@ -22,3 +22,5 @@ function App() {
 }
 
 export default App;
+// rgb(251, 223, 216) pink background
+// primary = #007bff
