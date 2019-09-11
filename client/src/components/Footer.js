@@ -37,7 +37,7 @@ const Footer = () => {
       style={{
         maxWidth: '960px',
         margin: 'auto',
-        padding: '5px'
+        padding: '25px'
       }}
     >
       <Form onSubmit={e => onSubmit(e)}>

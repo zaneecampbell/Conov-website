@@ -41,7 +41,7 @@ const NavBar = () => {
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                Commissions
+                Type
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>Type A</DropdownItem>

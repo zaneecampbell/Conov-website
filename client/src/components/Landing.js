@@ -1,7 +1,12 @@
 import React from 'react';
+import Type from './Type';
 
 const Landing = () => {
-  return <div>Test text</div>;
+  return (
+    <div>
+      <Type />
+    </div>
+  );
 };
 
 export default Landing;
