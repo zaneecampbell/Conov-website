@@ -44,25 +44,20 @@ const NavBar = () => {
                   Home
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink style={{ color: 'grey' }} tag={Link} to='/'>
-                  Portfolio
-                </NavLink>
-              </NavItem>
               <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle
-                  style={{ color: 'grey' }}
-                  tag={Link}
-                  to='/'
-                  nav
-                  caret
-                >
-                  Type
+                <DropdownToggle style={{ color: 'grey' }} nav caret>
+                  Portfolio
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>Type A</DropdownItem>
-                  <DropdownItem>Type B</DropdownItem>
-                  <DropdownItem>Type C</DropdownItem>
+                  <DropdownItem tag={Link} to='/portfolio'>
+                    Type A
+                  </DropdownItem>
+                  <DropdownItem tag={Link} to='/portfolio'>
+                    Type B
+                  </DropdownItem>
+                  <DropdownItem tag={Link} to='/portfolio'>
+                    Type C
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
