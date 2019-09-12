@@ -30,7 +30,9 @@ const Contact = () => {
               xs='12'
               md='8'
             >
-              <h1 className='display-3'>＊NOTICE＊</h1>{' '}
+              <h1 style={{ fontSize: '3rem' }} className='display-3'>
+                ＊NOTICE＊
+              </h1>{' '}
               <font color='red'>
                 <strong>All copyrights of works belong to 'Konob'</strong>
               </font>{' '}
@@ -59,8 +61,11 @@ const Contact = () => {
               </font>{' '}
             </Col>
             <Col xs='12'>
-              <h1 className='display-3'>＊COMMISSION＊ </h1>* The work will be
-              received in advance, and the contact will proceed to open{' '}
+              <h1 style={{ fontSize: '3rem' }} className='display-3'>
+                ＊COMMISSION＊{' '}
+              </h1>
+              * The work will be received in advance, and the contact will
+              proceed to open{' '}
               <font color='red'>
                 <strong>katok</strong>
               </font>{' '}
