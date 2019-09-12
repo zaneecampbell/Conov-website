@@ -1,19 +1,35 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 const Contact = () => {
   return (
-    <div style={{ paddingTop: '15px', paddingBottom: '15px' }}>
+    <div
+      style={{
+        minHeight: '75vh',
+        textAlign: 'center',
+        paddingTop: '15px',
+        paddingBottom: '15px'
+      }}
+    >
       <Row style={{ maxWidth: '1400px', margin: 'auto' }}>
         <Col style={{ margin: 'auto' }} md='12' lg='4'>
           <img
-            style={{ border: '1px solid black' }}
+            style={{
+              width: '100%',
+              maxWidth: '434.656px',
+              border: '1px solid black'
+            }}
+            alt='Notice img'
             src='/Notice_Images/Notice.webp'
           />
         </Col>
         <Col md='12' lg='8'>
           <Row>
-            <Col style={{ marginBottom: '15px' }} xs='12' md='8'>
+            <Col
+              style={{ margin: 'auto', marginBottom: '15px' }}
+              xs='12'
+              md='8'
+            >
               <h1 className='display-3'>＊NOTICE＊</h1>{' '}
               <font color='red'>
                 <strong>All copyrights of works belong to 'Konob'</strong>
