@@ -60,7 +60,7 @@ const Contact = () => {
                 </strong>
               </font>{' '}
             </Col>
-            <Col xs='12'>
+            <Col xs='12' style={{ marginTop: '75px', marginBottom: '50px' }}>
               <h1 style={{ fontSize: '3rem' }} className='display-3'>
                 ＊COMMISSION＊{' '}
               </h1>
