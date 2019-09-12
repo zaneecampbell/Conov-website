@@ -7,11 +7,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
+  NavLink
 } from 'reactstrap';
 
 const NavBar = () => {
@@ -44,22 +40,11 @@ const NavBar = () => {
                   Home
                 </NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle style={{ color: 'grey' }} nav caret>
+              <NavItem>
+                <NavLink style={{ color: 'grey' }} tag={Link} to='/portfolio'>
                   Portfolio
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem tag={Link} to='/portfolio'>
-                    Type A
-                  </DropdownItem>
-                  <DropdownItem tag={Link} to='/portfolio'>
-                    Type B
-                  </DropdownItem>
-                  <DropdownItem tag={Link} to='/portfolio'>
-                    Type C
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
+                </NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink style={{ color: 'grey' }} tag={Link} to='/contact'>
                   Contact Me
