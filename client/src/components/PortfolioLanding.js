@@ -31,7 +31,10 @@ const PortfolioLanding = () => {
         textAlign: 'center'
       }}
     >
-      <h1 style={{ marginBottom: '25px' }} className='display-3'>
+      <h1
+        style={{ marginBottom: '25px', fontSize: '4rem' }}
+        className='display-3'
+      >
         Portfolio
       </h1>
       <UncontrolledCarousel items={images} />

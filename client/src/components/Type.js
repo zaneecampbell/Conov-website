@@ -6,7 +6,10 @@ const Type = () => {
   return (
     <div>
       <Container style={{ textAlign: 'center' }} fluid>
-        <h1 style={{ marginBottom: '25px' }} className='display-3'>
+        <h1
+          style={{ marginBottom: '25px', fontSize: '4rem' }}
+          className='display-3'
+        >
           Type Comparison
         </h1>
         <img
