@@ -20,39 +20,40 @@ const Type = () => {
           style={{
             maxWidth: '1100px',
             margin: 'auto',
+            paddingBottom: '15px',
             background: 'grey',
             opacity: '0.7'
           }}
         >
           <Col xs='4'>
-            <ul style={{ fontSize: '.85rem', listStyleType: 'none' }}>
-              <strong>
-                <h3>Type A</h3>
-                <li>Half body 110＄/ Full body 150 ＄ (Tax incl.)</li>
-                <li>Simple style</li>
-                <li>Simple shading/ Highlights</li>
-              </strong>
-            </ul>
+            <strong>
+              <h3>Type A</h3>
+              <span style={{ fontSize: '.85rem' }}>
+                <div>Half body 110＄/ Full body 150 ＄ (Tax incl.)</div>
+                <div>Simple style</div>
+                <div>Simple shading/ Highlights</div>
+              </span>
+            </strong>
           </Col>
           <Col xs='4'>
-            <ul style={{ fontSize: '.85rem', listStyleType: 'none' }}>
-              <strong>
-                <h3>Type B</h3>
-                <li>Half body 130＄/ Full body 170 ＄ (Tax incl.)</li>
-                <li>Illustration style</li>
-                <li>More color then Type A</li>
-              </strong>
-            </ul>
+            <strong>
+              <h3>Type B</h3>
+              <span style={{ fontSize: '.85rem' }}>
+                <div>Half body 130＄/ Full body 170 ＄ (Tax incl.)</div>
+                <div>Illustration style</div>
+                <div>More color then Type A</div>
+              </span>
+            </strong>
           </Col>
           <Col xs='4'>
-            <ul style={{ fontSize: '.85rem', listStyleType: 'none' }}>
-              <strong>
-                <h3>Type C</h3>
-                <li>Half body 200＄/ Full body 240 ＄ (Tax incl.)</li>
-                <li>Full style</li>
-                <li>Vibrant shading and highlights</li>
-              </strong>
-            </ul>
+            <strong>
+              <h3>Type C</h3>
+              <span style={{ fontSize: '.85rem' }}>
+                <div>Half body 200＄/ Full body 240 ＄ (Tax incl.)</div>
+                <div>Full style</div>
+                <div>Vibrant shading and highlights</div>
+              </span>
+            </strong>
           </Col>
         </Row>
       </Container>
