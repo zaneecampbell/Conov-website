@@ -25,7 +25,7 @@ const Intro = () => {
               alt='profile pic'
               style={{
                 borderRadius: '50%',
-                maxWidth: '150px',
+                maxWidth: '200px',
                 border: '3px solid black'
               }}
             />

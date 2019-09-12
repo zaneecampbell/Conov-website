@@ -35,7 +35,7 @@ const PortfolioLanding = () => {
         style={{ marginBottom: '25px', fontSize: '4rem' }}
         className='display-3'
       >
-        Portfolio
+        Some of my work!
       </h1>
       <UncontrolledCarousel items={images} />
     </div>
