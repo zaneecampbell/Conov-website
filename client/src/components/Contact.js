@@ -34,27 +34,26 @@ const Contact = () => {
                 ＊NOTICE＊
               </h1>{' '}
               <font color='red'>
-                <strong>All copyrights of works belong to 'Konob'</strong>
+                <strong>All copyrights of works belong to 'Conov'</strong>
               </font>{' '}
               <br />
-              * Commercial use is not. (Please separate inquiry) to <br />*
-              Figure secondary processing is not possible to (program crop
-              tolerance of Use) <br />* enters the watermark in the picture
-              (Please do not delete). <br />* Workpiece Can be uploaded to my
-              SNS. <br />* It is possible to produce goods for private
-              collection. (Please tell us in advance.) <br />* Please understand
-              my painting style. (We do not receive style related feedback.){' '}
-              <br />* The operation is performed on the jet broadcast. <br />*
-              Contact is active from dawn to morning. <br />* Refund 100% before
-              work / Rough 80% / Sketch 50% / Not possible during coloring.
-              (100% refund if my personal circumstances prevent me from
-              proceeding) ​ <br />
-              <br />※ Please contact us for any missing parts :)
+              * Commercial use is prohibited. (Please separate inquiry)
+              <br />* Secondary processing is not available <br />* Watermark in
+              pictures. (Please do not delete). <br />* Workpiece Can be
+              uploaded to my SNS. <br />* It is possible to produce goods for
+              private a collection. (Let me know ahead of time.) <br />* Please
+              understand my painting style. (Style related feedback not
+              welcome.) <br />* The operation is performed on the stream
+              https://www.twitch.tv/choco_nov. <br />* Contact is active from
+              dawn to morning. <br />* Refund 100% before work / Rough 80% /
+              Sketch 50% / Not possible during coloring. (100% refund if my
+              personal circumstances prevent me from proceeding) ​ <br />
+              <br />※ Please contact me regarding any questions! :)
             </Col>
             <Col style={{ margin: 'auto' }} xs='12' md='12' lg='4'>
               <font color='red'>
                 <strong>
-                  NO) Real figures, adult males, middle aged and older, Mecca,
+                  NO) Real figures, adult males, middle aged and older, Mecha,
                   sensitive content, painting style (You can refuse at the
                   discretion of the worker.)
                 </strong>
@@ -65,11 +64,7 @@ const Contact = () => {
                 ＊COMMISSION＊{' '}
               </h1>
               * The work will be received in advance, and the contact will
-              proceed to open{' '}
-              <font color='red'>
-                <strong>katok</strong>
-              </font>{' '}
-              .<br />* Works with
+              proceed to open .<br />* Works with
               <strong> rough--sketch--coloring--finish</strong> Basically rough,
               sketch, complete capture will be sent. (The coloring process will
               be sent to you when you want / confirm the completed capture.)
@@ -78,12 +73,12 @@ const Contact = () => {
               <br />* <strong>Working period </strong>-The maximum one month is
               3-7 days after starting work.
               <br />* <strong>Size </strong>-Minimum 1500px horizontal (Pose,
-              depends on the presence of small items) (Resolution 300dpi) *
-              Works - we as a PNG file (if you wish, we also JPG.)
-              <br />* Background does not work by default. (A bed expression
-              such as Takimakura is possible and there is an additional charge.)
-              (A simple background and effects can be added at random. There is
-              no additional amount.)
+              depends on the presence of small items) (Resolution 300dpi) <br />
+              * Works - saved as a PNG file (if you wish, can be JPG.)
+              <br />* Background not included by default. (A bed expression such
+              as dakimakura is possible and there is an additional charge.) (A
+              simple background and effects can be added at random. No
+              additional charge.)
             </Col>
           </Row>
         </Col>
