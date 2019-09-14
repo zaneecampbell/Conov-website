@@ -37,8 +37,7 @@ const Footer = () => {
       style={{
         maxWidth: '960px',
         margin: 'auto',
-        paddingTop: '5px',
-        background: 'rgb(251, 223, 216)'
+        paddingTop: '5px'
       }}
     >
       <Form
