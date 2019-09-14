@@ -37,9 +37,12 @@ const Footer = () => {
       style={{
         maxWidth: '960px',
         margin: 'auto',
-        padding: '25px'
+        paddingTop: '5px'
       }}
     >
+      <p style={{ fontSize: '1.8rem', textAlign: 'center', margin: '0' }}>
+        Contact Form
+      </p>
       <Form onSubmit={e => onSubmit(e)}>
         <FormGroup row>
           <Label for='exampleEmail' sm={2}>

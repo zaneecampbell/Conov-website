@@ -7,8 +7,7 @@ const Contact = () => {
       style={{
         minHeight: '75vh',
         textAlign: 'center',
-        paddingTop: '15px',
-        paddingBottom: '15px'
+        paddingTop: '15px'
       }}
     >
       <Row style={{ maxWidth: '1400px', margin: 'auto' }}>
@@ -48,14 +47,15 @@ const Contact = () => {
               dawn to morning. <br />* Refund 100% before work / Rough 80% /
               Sketch 50% / Not possible during coloring. (100% refund if my
               personal circumstances prevent me from proceeding) ​ <br />
-              <br />※ Please contact me regarding any questions! :)
+              <br />
+              <strong>※ Please contact me regarding any questions! :)</strong>
             </Col>
             <Col style={{ margin: 'auto' }} xs='12' md='12' lg='4'>
               <font color='red'>
                 <strong>
                   NO) Real figures, adult males, middle aged and older, Mecha,
-                  sensitive content, painting style (You can refuse at the
-                  discretion of the worker.)
+                  sensitive content, painting style (I can refuse at my
+                  discretion.)
                 </strong>
               </font>{' '}
             </Col>
@@ -63,6 +63,7 @@ const Contact = () => {
               <h1 style={{ fontSize: '3rem' }} className='display-3'>
                 ＊COMMISSION＊{' '}
               </h1>
+              <strong>* Payment is done via paypal</strong> <br />
               * The work will be received in advance, and the contact will
               proceed to open .<br />* Works with
               <strong> rough--sketch--coloring--finish</strong> Basically rough,
