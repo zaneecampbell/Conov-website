@@ -37,18 +37,19 @@ const Footer = () => {
       style={{
         maxWidth: '960px',
         margin: 'auto',
-        paddingTop: '5px'
+        paddingTop: '5px',
+        background: 'rgb(251, 223, 216)'
       }}
     >
-      <p style={{ fontSize: '1.8rem', textAlign: 'center', margin: '0' }}>
-        Contact Form
-      </p>
-      <Form onSubmit={e => onSubmit(e)}>
+      <Form
+        style={{ width: '90%', margin: 'auto' }}
+        onSubmit={e => onSubmit(e)}
+      >
         <FormGroup row>
           <Label for='exampleEmail' sm={2}>
             Email
           </Label>
-          <Col sm={10}>
+          <Col sm={8}>
             <Input
               type='email'
               name='email'
@@ -63,7 +64,7 @@ const Footer = () => {
           <Label for='name/company' sm={2}>
             Name/Company
           </Label>
-          <Col sm={10}>
+          <Col sm={8}>
             <Input
               type='text'
               name='name'
@@ -78,7 +79,7 @@ const Footer = () => {
           <Label for='exampleText' sm={2}>
             Text Area
           </Label>
-          <Col sm={10}>
+          <Col sm={8}>
             <Input
               type='textarea'
               name='text'
