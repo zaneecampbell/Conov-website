@@ -10,7 +10,7 @@ const Contact = () => {
         paddingTop: '15px'
       }}
     >
-      <Row style={{ maxWidth: '1400px', margin: 'auto' }}>
+      <Row style={{ maxWidth: '1400px', margin: 'auto', textAlign: 'left' }}>
         <Col style={{ margin: 'auto' }} md='12' lg='4'>
           <img
             style={{
