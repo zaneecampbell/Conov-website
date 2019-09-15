@@ -37,7 +37,7 @@ const PortfolioLanding = () => {
       >
         Some of my work!
       </h1>
-      <UncontrolledCarousel items={images} />
+      <UncontrolledCarousel interval={4000} items={images} />
     </div>
   );
 };
