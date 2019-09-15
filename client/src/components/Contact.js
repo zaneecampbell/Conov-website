@@ -10,7 +10,7 @@ const Contact = () => {
         paddingTop: '15px'
       }}
     >
-      <Row style={{ maxWidth: '1400px', margin: 'auto', textAlign: 'left' }}>
+      <Row style={{ maxWidth: '1400px', margin: 'auto' }}>
         <Col style={{ margin: 'auto' }} md='12' lg='4'>
           <img
             style={{
@@ -25,9 +25,14 @@ const Contact = () => {
         <Col md='12' lg='8'>
           <Row>
             <Col
-              style={{ margin: 'auto', marginBottom: '15px' }}
+              style={{
+                margin: 'auto',
+                marginBottom: '15px',
+                textAlign: 'left'
+              }}
               xs='12'
-              md='8'
+              md='12'
+              lg='8'
             >
               <h1 style={{ fontSize: '3rem' }} className='display-3'>
                 ＊NOTICE＊
@@ -50,7 +55,12 @@ const Contact = () => {
               <br />
               <strong>※ Please contact me regarding any questions! :)</strong>
             </Col>
-            <Col style={{ margin: 'auto' }} xs='12' md='12' lg='4'>
+            <Col
+              style={{ margin: 'auto', textAlign: 'left' }}
+              xs='12'
+              md='12'
+              lg='4'
+            >
               <font color='red'>
                 <strong>
                   NO) Real figures, adult males, middle aged and older, Mecha,
@@ -59,7 +69,14 @@ const Contact = () => {
                 </strong>
               </font>{' '}
             </Col>
-            <Col xs='12' style={{ marginTop: '75px', marginBottom: '50px' }}>
+            <Col
+              xs='12'
+              style={{
+                marginTop: '75px',
+                marginBottom: '50px',
+                textAlign: 'left'
+              }}
+            >
               <h1 style={{ fontSize: '3rem' }} className='display-3'>
                 ＊COMMISSION＊{' '}
               </h1>
