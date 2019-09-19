@@ -41,7 +41,7 @@ const Intro = () => {
               stream my art (and games!) Mondays-Fridays starting around 9-10am
               (PDT) on twitch. I've also started using Youtube as another avenue
               to get my content out there and grow my community. I love talking
-              to chat on twitch. So come hangout or shoot me and email if you
+              to chat on twitch. So come hangout or shoot me an email if you
               have a commission request!
             </h5>
           </Col>
