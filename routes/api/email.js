@@ -5,7 +5,7 @@ const { check, validationResult } = require('express-validator');
 
 const sendMessage = (email, name, text) => {
   sgMail.send({
-    to: 'Smajsnamz@gmail.com',
+    to: 'co_nov@naver.com',
     from: email,
     subject: `Commission Request ${name}`,
     text
