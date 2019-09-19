@@ -27,6 +27,7 @@ const Footer = () => {
       const body = JSON.stringify({ email, name, text });
       await axios.post('/api/email/', body, config);
       console.log('success!');
+      setEmailData({ ...emailData, email: '', name: '', text: '' });
     } catch (err) {
       console.log(err.response.statusText);
     }
