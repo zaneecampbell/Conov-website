@@ -30,7 +30,7 @@ router.post(
     }
 
     try {
-      sgMail.setApiKey(process.env.SET_API_KEY);
+      sgMail.setApiKey(process.env.SGMAIL_API_KEY);
 
       const { email, name, text } = req.body;
       sendMessage(email, name, text);
