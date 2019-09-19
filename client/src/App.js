@@ -17,7 +17,7 @@ function App() {
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/portfolio' component={Portfolio} />
         </Switch>
-        <div style={{ background: 'rgb(251, 223, 216)' }}>
+        <div>
           <Footer />
         </div>
       </Fragment>

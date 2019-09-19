@@ -33,69 +33,71 @@ const Footer = () => {
   };
 
   return (
-    <div
-      style={{
-        maxWidth: '960px',
-        margin: 'auto',
-        paddingBottom: '25px',
-        paddingTop: '25px'
-      }}
-    >
-      <Form
-        style={{ width: '90%', margin: 'auto' }}
-        onSubmit={e => onSubmit(e)}
+    <div style={{ background: 'rgb(251, 223, 216)' }}>
+      <div
+        style={{
+          maxWidth: '960px',
+          margin: 'auto',
+          paddingBottom: '25px',
+          paddingTop: '25px'
+        }}
       >
-        <FormGroup row>
-          <Label for='exampleEmail' sm={2}>
-            Email
-          </Label>
-          <Col sm={8}>
-            <Input
-              type='email'
-              name='email'
-              value={email}
-              id='exampleEmail'
-              placeholder='Give me an e-mail to get back to you with!'
-              onChange={e => onChange(e)}
-            />
-          </Col>
-        </FormGroup>
-        <FormGroup row>
-          <Label for='name/company' sm={2}>
-            Name/Company
-          </Label>
-          <Col sm={8}>
-            <Input
-              type='text'
-              name='name'
-              value={name}
-              id='name/company'
-              placeholder='Enter your Name or Company!'
-              onChange={e => onChange(e)}
-            />
-          </Col>
-        </FormGroup>
-        <FormGroup row>
-          <Label for='exampleText' sm={2}>
-            Text Area
-          </Label>
-          <Col sm={8}>
-            <Input
-              type='textarea'
-              name='text'
-              value={text}
-              id='exampleText'
-              placeholder='Give me an idea of what you want! Including character, pose, and emotion.'
-              onChange={e => onChange(e)}
-            />
-          </Col>
-        </FormGroup>
-        <FormGroup check row>
-          <Col sm={{ size: 10, offset: 2 }}>
-            <Button>Submit</Button>
-          </Col>
-        </FormGroup>
-      </Form>
+        <Form
+          style={{ width: '90%', margin: 'auto' }}
+          onSubmit={e => onSubmit(e)}
+        >
+          <FormGroup row>
+            <Label for='exampleEmail' sm={2}>
+              Email
+            </Label>
+            <Col sm={8}>
+              <Input
+                type='email'
+                name='email'
+                value={email}
+                id='exampleEmail'
+                placeholder='Give me an e-mail to get back to you with!'
+                onChange={e => onChange(e)}
+              />
+            </Col>
+          </FormGroup>
+          <FormGroup row>
+            <Label for='name/company' sm={2}>
+              Name/Company
+            </Label>
+            <Col sm={8}>
+              <Input
+                type='text'
+                name='name'
+                value={name}
+                id='name/company'
+                placeholder='Enter your Name or Company!'
+                onChange={e => onChange(e)}
+              />
+            </Col>
+          </FormGroup>
+          <FormGroup row>
+            <Label for='exampleText' sm={2}>
+              Text Area
+            </Label>
+            <Col sm={8}>
+              <Input
+                type='textarea'
+                name='text'
+                value={text}
+                id='exampleText'
+                placeholder='Give me an idea of what you want! Including character, pose, and emotion.'
+                onChange={e => onChange(e)}
+              />
+            </Col>
+          </FormGroup>
+          <FormGroup check row>
+            <Col sm={{ size: 10, offset: 2 }}>
+              <Button>Submit</Button>
+            </Col>
+          </FormGroup>
+        </Form>
+      </div>
     </div>
   );
 };
