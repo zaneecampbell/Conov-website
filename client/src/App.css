@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  background: rgb(251, 223, 216);
+}
+
 .carousel-caption {
   position: relative !important;
   top: 0 !important;

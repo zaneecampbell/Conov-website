@@ -7,8 +7,7 @@ const Landing = () => {
   return (
     <div
       style={{
-        background:
-          "linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url('Intro_Wallpaper.jpg')",
+        backgroundImage: 'url("Intro_Wallpaper2.png")',
         backgroundColor: 'rgba(255, 255, 255, 0.9)',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center top',
