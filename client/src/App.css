@@ -6,6 +6,14 @@ body {
   background: rgb(251, 223, 216);
 }
 
+#landing-container {
+  background-image: url('Intro_Wallpaper2.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .carousel-caption {
   position: relative !important;
   top: 0 !important;
