@@ -15,6 +15,7 @@ const Footer = () => {
     setEmailData({ ...emailData, [e.target.name]: e.target.value });
   };
 
+  // Send email to artist
   const onSubmit = async e => {
     e.preventDefault();
     try {

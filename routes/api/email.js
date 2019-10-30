@@ -12,6 +12,9 @@ const sendMessage = (email, name, text) => {
   });
 };
 
+/// @route Post /
+/// @desc send an email to the artist
+/// @access Public
 router.post(
   '/',
   [

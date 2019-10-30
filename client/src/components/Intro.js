@@ -32,11 +32,6 @@ const Intro = () => {
           </Col>
           <Col style={{ margin: 'auto' }} md='8'>
             <h5>
-              {/* Lorem ipsum dolor sit amet, pro inani splendide instructior te.
-              Pri ad menandri definitionem, unum omnis minimum id his. Corpora
-              philosophia definitiones an nec. Perpetua quaerendum deterruisset
-              vis ad, vis saepe vitae invenire ea. Eu his suas intellegat, mea
-              homero nullam aliquando ad. */}
               Hello! I'm a Korean digital artist specializing in cute girls. I
               stream my art (and games!) Mondays-Fridays starting around 9-10am
               (PDT) on twitch. I've also started using Youtube as another avenue

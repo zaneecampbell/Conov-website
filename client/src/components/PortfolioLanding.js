@@ -2,6 +2,7 @@ import React from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
 
 const PortfolioLanding = () => {
+  // Images to pass into the carousel
   const images = [
     {
       src: '/Carousel_Images/1.png',
